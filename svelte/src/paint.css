@@ -1,0 +1,33 @@
+#canvas {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#tools {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+#tools button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor: pointer;
+}
+
+#tools button:hover {
+    background-color: #45a049;
+}
+
+#tools input[type="color"], #tools input[type="range"] {
+    margin: 4px 10px;
+}
